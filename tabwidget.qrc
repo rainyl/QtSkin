@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>TabWidget/tabwidget.qss</file>
+        <file>Res/TabWidget/Hover.png</file>
+        <file>Res/TabWidget/Normal.png</file>
+    </qresource>
+</RCC>

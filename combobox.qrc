@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Res/ComboBox/BG.png</file>
+        <file>Res/ComboBox/A.png</file>
+        <file>Res/ComboBox/B.png</file>
+    </qresource>
+</RCC>

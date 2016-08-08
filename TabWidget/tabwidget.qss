@@ -1,0 +1,126 @@
+QTabWidget::pane {
+      border-top: 1px solid transparent;
+      position: absolute;
+      top: -0.5em;
+  }
+
+QTabWidget::tab-bar {
+      alignment: center;
+}
+
+QTabBar::tab {
+      border-image:  url(:/Res/TabWidget/Normal.png);
+      border: 2px solid #C4C4C3;
+      border-bottom-color: transparent;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      width: 60px;
+      height: 20px;
+
+  }
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+      border-image:  url(:/Res/TabWidget/Hover.png);
+      }
+QTabBar::tab:selected {
+      border-image:  url(:/Res/TabWidget/Hover.png);
+      color:white;
+  }
+
+QTabBar::tab:selected {
+
+ }
+
+QTabBar::tab:first{
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+width: 60px;
+height: 20px;
+}
+ QTabBar::tab:first:selected {
+ border-top-left-radius: 5px;
+ border-top-right-radius: 0px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 0px;
+ width: 60px;
+ height: 20px;
+ }
+ QTabBar::tab:first:!selected {
+ border-top-left-radius: 5px;
+ border-top-right-radius: 0px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 0px;
+ width: 60px;
+ height: 20px;
+ }
+QTabBar::tab:first:selected, QTabBar::tab:hover{
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+width: 60px;
+height: 20px;
+}
+QTabBar::tab:first:!selected , QTabBar::tab:hover{
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+width: 60px;
+height: 20px;
+}
+QTabBar::tab:last{
+border-top-left-radius: 5px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 0px;
+width: 60px;
+height: 20px;
+}
+ QTabBar::tab:last:selected {
+ border-top-left-radius: 0px;
+ border-top-right-radius: 5px;
+ border-bottom-left-radius: 0px;
+ border-bottom-right-radius: 5px;
+ width: 60px;
+ height: 20px;
+ }
+ QTabBar::tab:last:!selected {
+ border-top-left-radius: 0px;
+ border-top-right-radius: 5px;
+ border-bottom-left-radius: 0px;
+ border-bottom-right-radius: 5px;
+ width: 60px;
+ height: 20px;
+ }
+QTabBar::tab:last:selected, QTabBar::tab:hover {
+
+border-top-left-radius: 0px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 5px;
+width: 60px;
+height: 20px;
+}
+QTabBar::tab:last:!selected , QTabBar::tab:hover{
+
+border-top-left-radius: 0px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 5px;
+width: 60px;
+height: 20px;
+}
+ QTabBar::tab:only-one {
+
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ width: 60px;
+ height: 20px;
+ }

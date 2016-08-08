@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Res/ScrollBar/ScrollBarHorizontal.png</file>
+        <file>Res/ScrollBar/ScrollBarNOMARL.png</file>
+        <file>ScrollBar/scrollbar.qss</file>
+        <file>Res/ScrollBar/UpHover.png</file>
+        <file>Res/ScrollBar/Up.png</file>
+        <file>Res/ScrollBar/Down.png</file>
+        <file>Res/ScrollBar/DownHover.png</file>
+    </qresource>
+</RCC>

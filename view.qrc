@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Res/View/TitleBar.png</file>
+        <file>Res/View/BG.png</file>
+    </qresource>
+</RCC>

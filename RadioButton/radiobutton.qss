@@ -1,0 +1,26 @@
+QRadioButton{
+    spacing: 2px;
+    color: white;
+}
+QRadioButton::indicator {
+    width: 17px;
+    height: 17px;
+}
+QRadioButton::indicator:unchecked {
+    image: url(:/Res/RadioButton/unchecked.png);
+}
+QRadioButton::indicator:unchecked:hover {
+    image: url(:/Res/RadioButton/uncheckedHover.png);
+}
+QRadioButton::indicator:unchecked:pressed {
+    image: url(:/Res/RadioButton/uncheckedHover.png);
+}
+QRadioButton::indicator:checked {
+    image: url(:/Res/RadioButton/checked.png);
+}
+QRadioButton::indicator:checked:hover {
+    image: url(:/Res/RadioButton/uncheckedHover-1.png);
+}
+QRadioButton::indicator:checked:pressed {
+    image: url(:/Res/RadioButton/uncheckedHover-1.png);
+}

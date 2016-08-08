@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Res/buttonCloseENTER.png</file>
+        <file>Res/buttonCloseNORMAL.png</file>
+        <file>Res/buttonClosePRESS.png</file>
+        <file>Res/buttonMax.png</file>
+        <file>Res/buttonMinENTER.png</file>
+        <file>Res/buttonMinNOMAL.png</file>
+        <file>Res/buttonMinPRESS.png</file>
+        <file>Res/MineButtonENTER.png</file>
+        <file>Res/MineButtonNOMRMAL.png</file>
+        <file>Res/MineButtonPress.png</file>
+        <file>Res/Button/ListButton.png</file>
+    </qresource>
+</RCC>

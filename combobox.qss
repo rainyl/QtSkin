@@ -1,0 +1,15 @@
+QComboBox {
+    /*border: 16px solid transparent;
+    border-radius: 6px;*/
+    border-image:  url(:/Res/ComboBox/BG.png);
+}
+
+
+
+QComboBox::drop-down {
+border-style: none;
+}
+QComboBox::down-arrow {
+border: 1px solid red;
+    image: url(:/Res/ComboBox/B.png);
+}
