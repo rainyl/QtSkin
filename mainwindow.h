@@ -34,6 +34,9 @@
 #include "TabWidget/minetab.h"
 #include "ComboBox/minecombobox.h"
 #include "View/mineview.h"
+#include <QRectF>
+#include <QPointF>
+#include <QtGlobal>
 class MainWindow;
 class QColor;
 class QTimer;
@@ -61,7 +64,7 @@ private:
 #else
 #endif
     QPushButton *btnExit;
-    void paintEvent(QPaintEvent *event);
+    void paintEvent(QPaintEvent *);
     MaxButton *btnMax;
     CloseButton *btnclose;
     MinButton * btnMin;
