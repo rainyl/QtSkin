@@ -2,5 +2,7 @@
     <qresource prefix="/">
         <file>Res/View/TitleBar.png</file>
         <file>Res/View/BG.png</file>
+        <file>Res/View/AboutView.jpg</file>
+        <file>Res/View/View.png</file>
     </qresource>
 </RCC>

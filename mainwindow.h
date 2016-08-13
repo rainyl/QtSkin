@@ -34,6 +34,7 @@
 #include "TabWidget/minetab.h"
 #include "ComboBox/minecombobox.h"
 #include "View/mineview.h"
+#include "View/transpateview.h"
 #include <QRectF>
 #include <QPointF>
 #include <QtGlobal>
@@ -51,7 +52,6 @@ public:
     void start();
 
 private:
-    void drawWinowShadow(QPainter &painter);
     void InitView();
     void InitEvents();
     void mousePressEvent(QMouseEvent *event);
@@ -71,15 +71,17 @@ private:
     MineMenu *menu;
     ListButton *btnlist;
     MineButton *btn;
+    MineButton *btn2;
     MineTab *tw;
 
     MineComboBox *cbox;
     MineView *view;
-
+    TranspateView *viewTranspate;
 public slots:
     void ApplicationExit();
     void ApplicationMin();
     void ViewShow();
+    void TranspateViewShow();
 };
 
 #endif // MAINWINDOW_H

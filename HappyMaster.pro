@@ -30,7 +30,8 @@ SOURCES += main.cpp\
     TabWidget/minetab.cpp \
     ComboBox/minecombobox.cpp \
     View/mineview.cpp \
-    View/titlebar.cpp
+    View/titlebar.cpp \
+    View/transpateview.cpp
 
 HEADERS  += mainwindow.h \
     frameless_helper.h \
@@ -50,7 +51,9 @@ HEADERS  += mainwindow.h \
     TabWidget/minetab.h \
     ComboBox/minecombobox.h \
     View/mineview.h \
-    View/titlebar.h
+    View/titlebar.h \
+    View/transpateview.h \
+    View/vieweffect.h
 
 FORMS    += \
     testform.ui

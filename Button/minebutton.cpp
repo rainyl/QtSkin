@@ -55,7 +55,7 @@ void MineButton::paintEvent(QPaintEvent *)
     QPainter painter(this);
     QPixmap pixmap;
     painter.setRenderHint(QPainter::Antialiasing,true);
-    QFont font("AC Line",15,QFont::Light);
+    QFont font(".萍方-简",15,QFont::Light);
     /*int nIndex = QFontDatabase::addApplicationFont(":/Res/Font/HANYITime.ttf");
     if (nIndex != -1)
     {
