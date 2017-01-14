@@ -1,0 +1,14 @@
+﻿  Moc'ing custommenu.h...
+  Rcc'ing custommenu.qrc...
+RCC : warning : No resources in 'C:\Users\ZhaiChangtui\Desktop\CustomMenu\custommenu.qrc'.
+  
+  Moc'ing CustomStyle.h...
+  custommenu.cpp
+  CustomStyle.cpp
+  moc_custommenu.cpp
+  moc_CustomStyle.cpp
+  main.cpp
+  正在生成代码...
+  qrc_custommenu.cpp
+  CustomMenu.vcxproj -> C:\Users\ZhaiChangtui\Desktop\CustomMenu\Win32\Debug\CustomMenu.exe
+  CustomMenu.vcxproj -> C:\Users\ZhaiChangtui\Desktop\CustomMenu\Win32\Debug\CustomMenu.pdb (Full PDB)
